@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9b334df-19b8-41ea-8b2a-974f77e2f041" name="Default Changelist" comment="" />
+    <list default="true" id="d9b334df-19b8-41ea-8b2a-974f77e2f041" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-commons/src/main/java/com/ego/commons/pojo/EasyUITree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-commons/src/main/java/com/ego/commons/utils/FtpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-commons/src/main/java/com/ego/commons/utils/IDUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-commons/src/main/resources/commons.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/controller/PicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/controller/TbItemCatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/PicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/TbItemCatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/impl/PicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/impl/TbItemCatServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemCatDubboServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemDescDubboServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemCatDubboService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemDescDubboService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ego_manage_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ego_manage_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/ego-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/ego-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/src/main/java/com/ego/commons/pojo/EgoResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/src/main/java/com/ego/commons/pojo/EgoResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/target/classes/com/ego/commons/pojo/EgoResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/target/classes/com/ego/commons/pojo/EgoResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/target/ego-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/target/ego-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/ego-manage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/ego-manage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/controller/TbItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/controller/TbItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/TbItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/TbItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/impl/TbItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/impl/TbItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/src/main/resources/applicationContext-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/src/main/resources/applicationContext-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/src/main/webapp/WEB-INF/jsp/item-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/src/main/webapp/WEB-INF/jsp/item-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/classes/applicationContext-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/classes/applicationContext-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/classes/com/ego/manage/controller/TbItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/classes/com/ego/manage/controller/TbItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/classes/com/ego/manage/service/TbItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/classes/com/ego/manage/service/TbItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/classes/com/ego/manage/service/impl/TbItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/classes/com/ego/manage/service/impl/TbItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/applicationContext-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/com/ego/manage/controller/TbItemController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/com/ego/manage/controller/TbItemController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/com/ego/manage/service/TbItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/com/ego/manage/service/TbItemService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/com/ego/manage/service/impl/TbItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/com/ego/manage/service/impl/TbItemServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/jsp/item-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/jsp/item-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/lib/ego-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/lib/ego-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/lib/ego-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/lib/ego-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/lib/ego-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/ego-manage-1.0-SNAPSHOT/WEB-INF/lib/ego-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/tomcat/logs/access_log.2020-05-05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dadd_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dlist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dlist_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dparam_002dlist_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-manage/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/jsp/item_002dparam_002dlist_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-pojo/target/ego-pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ego-pojo/target/ego-pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-pojo/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ego-pojo/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/ego-service-impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/ego-service-impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemDubboServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/dubbo/service/impl/TbItemDubboServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/src/main/java/com/ego/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/src/main/resources/META-INF/spring/applicationContext-dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/target/classes/META-INF/spring/applicationContext-dubbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/target/classes/META-INF/spring/applicationContext-dubbo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/target/classes/com/ego/dubbo/service/impl/TbItemDubboServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/target/classes/com/ego/dubbo/service/impl/TbItemDubboServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/target/ego-service-impl-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/target/ego-service-impl-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service-impl/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/ego-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/ego-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemDubboService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/src/main/java/com/ego/dubbo/service/TbItemDubboService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/target/classes/com/ego/dubbo/service/TbItemDubboService.class" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/target/classes/com/ego/dubbo/service/TbItemDubboService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/target/ego-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/target/ego-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/ego-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +96,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,6 +114,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1bRSJXw8xXvi3m2qXoY2t2fbNaK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -36,10 +124,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ego-commons/src/main/java/com/ego/commons/utils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -47,14 +136,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVAXX\IdeaProjects\ego\ego-commons\src\main\java\com\ego\commons\utils" />
       <recent name="E:\JAVAXX\IdeaProjects\ego\ego-manage\src\main\webapp\WEB-INF" />
       <recent name="E:\JAVAXX\IdeaProjects\ego\ego-manage\src\main\resources" />
       <recent name="E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\resources" />
       <recent name="E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego" />
-      <recent name="E:\JAVAXX\IdeaProjects\ego\ego-pojo\src\main\java\com\ego" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ego.test.Test" />
       <module name="ego-service-impl" />
@@ -68,9 +157,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ego-manage [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ego-manage" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Maven.ego-manage [tomcat7:run]" />
       </list>
     </recent_temporary>
   </component>
@@ -100,6 +215,11 @@
       <workItem from="1588646989264" duration="9000" />
       <workItem from="1588680250153" duration="1489000" />
       <workItem from="1588685364942" duration="8055000" />
+      <workItem from="1588727146323" duration="2582000" />
+      <workItem from="1588748872931" duration="344000" />
+      <workItem from="1588939851623" duration="4490000" />
+      <workItem from="1588990138985" duration="23000" />
+      <workItem from="1589071018021" duration="15229000" />
     </task>
     <servers />
   </component>
@@ -107,45 +227,80 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Auto_Import" timestamp="1589074536426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Auto_Import/0.0.1536.824@0.0.1536.824" timestamp="1589074536426" />
     <state x="361" y="71" key="#Project_Structure" timestamp="1588593361133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1588593361133" />
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1588691379136">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1589100682839">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588691379136" />
-    <state x="549" y="102" key="FileChooserDialogImpl" timestamp="1588646996752">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589100682839" />
+    <state x="549" y="102" key="FileChooserDialogImpl" timestamp="1588990159930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588646996752" />
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1588693838634">
+    <state x="549" y="102" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588990159930" />
+    <state width="1493" height="180" key="GridCell.Tab.0.bottom" timestamp="1589101538641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588693838634" />
-    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1588693838634">
+    <state width="1493" height="180" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589101538641" />
+    <state width="1493" height="180" key="GridCell.Tab.0.center" timestamp="1589101538641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588693838634" />
-    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1588693838634">
+    <state width="1493" height="180" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589101538641" />
+    <state width="1493" height="180" key="GridCell.Tab.0.left" timestamp="1589101538641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588693838634" />
-    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1588693838634">
+    <state width="1493" height="180" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589101538641" />
+    <state width="1493" height="180" key="GridCell.Tab.0.right" timestamp="1589101538641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588693838634" />
+    <state width="1493" height="180" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589101538641" />
+    <state width="1493" height="114" key="GridCell.Tab.1.bottom" timestamp="1589076108391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="114" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589076108391" />
+    <state width="1493" height="114" key="GridCell.Tab.1.center" timestamp="1589076108391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="114" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589076108391" />
+    <state width="1493" height="114" key="GridCell.Tab.1.left" timestamp="1589076108391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="114" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589076108391" />
+    <state width="1493" height="114" key="GridCell.Tab.1.right" timestamp="1589076108391">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="114" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589076108391" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1588602545808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588602545808" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588727146123">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588990138969">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588727146123" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588990138969" />
+    <state x="447" y="150" width="884" height="599" key="find.popup" timestamp="1589101005937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="150" width="884" height="599" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589101005937" />
     <state x="178" y="22" key="new project wizard" timestamp="1588595102897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1588595102897" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ego-manage/src/main/java/com/ego/manage/service/impl/PicServiceImpl.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

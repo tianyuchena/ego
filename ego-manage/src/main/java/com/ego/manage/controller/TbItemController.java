@@ -3,6 +3,7 @@ package com.ego.manage.controller;
 import com.ego.commons.pojo.EasyUIDataGrid;
 import com.ego.commons.pojo.EgoResult;
 import com.ego.manage.service.TbItemService;
+import com.ego.pojo.TbItem;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -86,5 +87,28 @@ public class TbItemController {
         return er;
     }
 
+    /**
+     * 新增商品和商品描述
+     * @param item
+     * @param desc
+     * @return
+     */
+    @RequestMapping("item/save")
+    @ResponseBody
+    public EgoResult save(TbItem item, String desc)
+    {
+        EgoResult er = new EgoResult();
+        int index;
+
+        try {
+            index = tbItemServiceImpl.insTbItemDesc(item, desc);
+            if(index == 1)
+                er.setStatus(200);
+        } catch (Exception e) {
+//            e.printStackTrace();
+            er.setData(e.getMessage());
+        }
+        return er;
+    }
 
 }
