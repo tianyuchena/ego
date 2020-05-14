@@ -1,11 +1,12 @@
 package com.ego.manage.service.impl;
 
-import com.alibaba.dubbo.config.annotation.Service;
+
 import com.ego.commons.utils.FtpUtil;
 import com.ego.commons.utils.IDUtils;
 import com.ego.manage.service.PicService;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

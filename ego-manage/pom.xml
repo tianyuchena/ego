@@ -86,6 +86,7 @@
             <artifactId>zkclient</artifactId>
         </dependency>
     </dependencies>
+
     <build>
         <resources>
             <resource>

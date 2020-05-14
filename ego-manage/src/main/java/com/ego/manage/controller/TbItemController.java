@@ -23,8 +23,8 @@ public class TbItemController {
 
     /**
      * 商品分页显示
-     * @param page
-     * @param rows
+     * @param page  显示第几页
+     * @param rows  该页有多少条数据
      * @return
      */
     @RequestMapping("item/list")
@@ -95,13 +95,13 @@ public class TbItemController {
      */
     @RequestMapping("item/save")
     @ResponseBody
-    public EgoResult save(TbItem item, String desc)
+    public EgoResult save(TbItem item, String desc, String itemParams)
     {
         EgoResult er = new EgoResult();
         int index;
 
         try {
-            index = tbItemServiceImpl.insTbItemDesc(item, desc);
+            index = tbItemServiceImpl.insTbItemDesc(item, desc, itemParams);
             if(index == 1)
                 er.setStatus(200);
         } catch (Exception e) {

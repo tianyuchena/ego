@@ -11,7 +11,7 @@
 		http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 		
 	<!-- 给当前Provider自定义个名字 -->
-	<dubbo:application name="dubbo-ego-service"/>
+	<dubbo:application name="ego-service-impl"/>
 	<!-- 配置注册中心  -->
 	<dubbo:registry address="192.168.238.130:2181" protocol="zookeeper"></dubbo:registry>
 	<!-- 配置端口 -->
@@ -26,6 +26,10 @@
 	<!-- 商品描述服务 -->
 <!--	<dubbo:service interface="com.ego.dubbo.service.TbItemDescDubboService" ref="tbItemDescDubboServiceImpl"></dubbo:service>
 	<bean id="tbItemDescDubboServiceImpl" class="com.ego.dubbo.service.impl.TbItemDescDubboServiceImpl"></bean>-->
+	<!-- 商品规格参数服务 -->
+	<dubbo:service interface="com.ego.dubbo.service.TbItemParamDubboService" ref="tbItemParamDubboServiceImpl"></dubbo:service>
+	<bean id="tbItemParamDubboServiceImpl" class="com.ego.dubbo.service.impl.TbItemParamDubboServiceImpl"></bean>
+
 	<import resource="../../applicationContext.xml"/>
 </beans>
 

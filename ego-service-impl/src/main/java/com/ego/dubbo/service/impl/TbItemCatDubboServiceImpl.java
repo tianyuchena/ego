@@ -2,6 +2,7 @@ package com.ego.dubbo.service.impl;
 
 import com.ego.dubbo.service.TbItemCatDubboService;
 import com.ego.mapper.TbItemCatMapper;
+import com.ego.pojo.TbItem;
 import com.ego.pojo.TbItemCat;
 import com.ego.pojo.TbItemCatExample;
 
@@ -24,5 +25,10 @@ public class TbItemCatDubboServiceImpl implements TbItemCatDubboService {
         TbItemCatExample example = new TbItemCatExample();
         example.createCriteria().andParentIdEqualTo(pid);
         return tbItemCatMapper.selectByExample(example);
+    }
+
+    @Override
+    public TbItemCat selById(long id) {
+        return tbItemCatMapper.selectByPrimaryKey(id);
     }
 }

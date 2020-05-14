@@ -1,11 +1,11 @@
 package com.ego.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.alibaba.dubbo.config.annotation.Service;
 import com.ego.commons.pojo.EasyUITree;
 import com.ego.dubbo.service.TbItemCatDubboService;
 import com.ego.manage.service.TbItemCatService;
 import com.ego.pojo.TbItemCat;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;

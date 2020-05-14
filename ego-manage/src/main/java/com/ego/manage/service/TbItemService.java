@@ -33,6 +33,6 @@ public interface TbItemService {
      * @param desc
      * @return
      */
-    int insTbItemDesc(TbItem tbItem, String desc) throws Exception;
+    int insTbItemDesc(TbItem tbItem, String desc, String itemParams) throws Exception;
 
 }

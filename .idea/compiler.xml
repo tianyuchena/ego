@@ -6,18 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ego-service" />
         <module name="ego-pojo" />
         <module name="ego-manage" />
-        <module name="ego-commons" />
         <module name="ego-service-impl" />
-        <module name="ego-service" />
+        <module name="ego-item" />
+        <module name="ego-commons" />
+        <module name="ego-portal" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ego-commons" target="1.7" />
+      <module name="ego-item" target="1.7" />
       <module name="ego-manage" target="1.7" />
       <module name="ego-parent" target="1.7" />
       <module name="ego-pojo" target="1.7" />
+      <module name="ego-portal" target="1.7" />
       <module name="ego-service" target="1.7" />
       <module name="ego-service-impl" target="1.7" />
     </bytecodeTargetLevel>

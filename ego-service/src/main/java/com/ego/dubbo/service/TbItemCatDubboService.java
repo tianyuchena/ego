@@ -1,5 +1,6 @@
 package com.ego.dubbo.service;
 
+import com.ego.pojo.TbItem;
 import com.ego.pojo.TbItemCat;
 
 import java.util.List;
@@ -18,4 +19,11 @@ public interface TbItemCatDubboService {
      * @return
      */
     List<TbItemCat> show(long pid);
+
+    /**
+     * 根据id查询商品
+     * @param id
+     * @return
+     */
+    TbItemCat selById(long id);
 }

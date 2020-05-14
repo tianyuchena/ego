@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [14/May/2020:17:14:22 +0800] "GET / HTTP/1.1" 404 949 http-bio-8081-exec-2 135
+0:0:0:0:0:0:0:1 - - [14/May/2020:17:14:22 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8081-exec-3 1
+0:0:0:0:0:0:0:1 - - [14/May/2020:17:14:40 +0800] "GET /rest/itemcat/all HTTP/1.1" 500 4194 http-bio-8081-exec-4 27
+0:0:0:0:0:0:0:1 - - [14/May/2020:17:16:09 +0800] "GET /rest/itemcat/all HTTP/1.1" 200 45996 http-bio-8081-exec-2 1959
+127.0.0.1 - - [14/May/2020:17:17:03 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-4 1011
+127.0.0.1 - - [14/May/2020:17:17:26 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-5 890
+127.0.0.1 - - [14/May/2020:17:17:32 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-6 886
+127.0.0.1 - - [14/May/2020:17:18:39 +0800] "GET /rest/itemcat/all?callback=category.getDataService HTTP/1.1" 200 46027 http-bio-8081-exec-8 860

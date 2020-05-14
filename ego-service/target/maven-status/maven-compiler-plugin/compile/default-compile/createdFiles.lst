@@ -1,3 +1,4 @@
-com\ego\dubbo\service\TbItemDubboService.class
 com\ego\dubbo\service\TbItemCatDubboService.class
+com\ego\dubbo\service\TbItemDubboService.class
+com\ego\dubbo\service\TbItemParamDubboService.class
 com\ego\dubbo\service\TbItemDescDubboService.class
