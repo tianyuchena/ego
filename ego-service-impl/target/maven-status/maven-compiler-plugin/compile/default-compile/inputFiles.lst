@@ -8,8 +8,10 @@ E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\mapper\TbItemD
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\test\Test.java
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\mapper\TbContentMapper.java
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\mapper\TbOrderShippingMapper.java
+E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\dubbo\service\impl\TbContentDubboServiceImpl.java
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\dubbo\service\impl\TbItemParamDubboServiceImpl.java
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\mapper\TbItemMapper.java
+E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\dubbo\service\impl\TbContentCategoryDubboServiceImpl.java
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\mapper\TbOrderItemMapper.java
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\dubbo\service\impl\TbItemCatDubboServiceImpl.java
 E:\JAVAXX\IdeaProjects\ego\ego-service-impl\src\main\java\com\ego\mapper\TbUserMapper.java

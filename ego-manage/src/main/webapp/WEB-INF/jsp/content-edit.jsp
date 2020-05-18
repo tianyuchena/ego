@@ -65,14 +65,20 @@ var contentEditPage = {
 				return ;
 			}
 			contentEditEditor.sync();
-			
-			$.post("/rest/content/edit",$("#contentEditForm").serialize(), function(data){
-				if(data.status == 200){
-					$.messager.alert('提示','新增内容成功!');
-					$("#contentList").datagrid("reload");
-					TT.closeCurrentWindow();
+
+			$.messager.confirm('确认','确定修改吗？',function(r){
+				if (r){
+					$.post("/rest/content/edit",$("#contentEditForm").serialize(), function(data){
+						if(data.status == 200){
+							$.messager.alert('提示','修改内容成功!',undefined,function(){
+							});
+							$("#contentList").datagrid("reload");
+							TT.closeCurrentWindow();
+						}
+					});
 				}
 			});
+
 		},
 		clearForm : function(){
 			
