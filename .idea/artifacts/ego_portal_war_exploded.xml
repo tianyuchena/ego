@@ -22,6 +22,9 @@
           <element id="archive" name="ego-pojo-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ego-pojo" />
           </element>
+          <element id="archive" name="ego-redis-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ego-redis" />
+          </element>
           <element id="archive" name="ego-commons-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ego-commons" />
           </element>

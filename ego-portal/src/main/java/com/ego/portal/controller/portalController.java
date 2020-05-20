@@ -16,6 +16,6 @@ public class portalController {
     @RequestMapping("/")
     public String show()
     {
-        return "index";
+        return "forward:/showBigPic";
     }
 }

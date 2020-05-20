@@ -14,8 +14,9 @@
     <module>../ego-service-impl</module>
     <module>../ego-commons</module>
     <module>../ego-manage</module>
-      <module>../ego-portal</module>
-      <module>../ego-item</module>
+    <module>../ego-portal</module>
+    <module>../ego-item</module>
+    <module>../ego-redis</module>
   </modules>
 
   <properties>

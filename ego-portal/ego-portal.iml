@@ -29,6 +29,7 @@
     <orderEntry type="library" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" level="project" />
     <orderEntry type="module" module-name="ego-service" />
     <orderEntry type="module" module-name="ego-pojo" />
+    <orderEntry type="module" module-name="ego-redis" />
     <orderEntry type="module" module-name="ego-commons" />
     <orderEntry type="library" name="Maven: commons-net:commons-net:3.3" level="project" />
     <orderEntry type="library" name="Maven: redis.clients:jedis:2.8.1" level="project" />

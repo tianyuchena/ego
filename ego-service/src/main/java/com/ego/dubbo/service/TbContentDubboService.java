@@ -3,6 +3,8 @@ package com.ego.dubbo.service;
 import com.ego.commons.pojo.EasyUIDataGrid;
 import com.ego.pojo.TbContent;
 
+import java.util.List;
+
 /**
  * @Auther: cty
  * @Date: 2020/5/18 20:49
@@ -41,4 +43,12 @@ public interface TbContentDubboService {
      * @return
      */
     int update(TbContent content);
+
+    /**
+     * 查出最近的前n个
+     * @param count
+     * @param isSort
+     * @return
+     */
+    List<TbContent> selByCount(int count, boolean isSort);
 }
