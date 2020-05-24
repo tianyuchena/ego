@@ -5,6 +5,8 @@ import com.ego.pojo.TbItem;
 import com.ego.pojo.TbItemDesc;
 import com.ego.pojo.TbItemParamItem;
 
+import java.util.List;
+
 /**
  * @Auther: cty
  * @Date: 2020/5/5 21:30
@@ -42,4 +44,10 @@ public interface TbItemDubboService {
      */
     int insTbItemDesc(TbItem tbItem, TbItemDesc tbItemDesc, TbItemParamItem paramItem) throws Exception;
 
+    /**
+     * 根据状态查询数据
+     * @param status
+     * @return
+     */
+    List<TbItem> selByStatus(byte status);
 }

@@ -4,6 +4,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ego-item" />
     <file type="web" url="file://$PROJECT_DIR$/ego-manage" />
     <file type="web" url="file://$PROJECT_DIR$/ego-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-search" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">

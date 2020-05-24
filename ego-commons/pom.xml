@@ -12,6 +12,12 @@
 
     <artifactId>ego-commons</artifactId>
     <dependencies>
+        <!-- httpclient -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.4.1</version>
+        </dependency>
         <!-- ftpclient -->
         <dependency>
             <groupId>commons-net</groupId>

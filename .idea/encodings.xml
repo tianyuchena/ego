@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$/ego-commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ego-pojo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ego-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ego-search/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ego-service-impl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ego-service/src/main/java" charset="UTF-8" />
   </component>

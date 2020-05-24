@@ -74,4 +74,11 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
             throw new Exception("商品或描述插入数据库失败，数据回滚");
     }
 
+    @Override
+    public List<TbItem> selByStatus(byte status) {
+        TbItemExample example = new TbItemExample();
+        example.createCriteria().andStatusEqualTo(status);
+        return tbItemMapper.selectByExample(example);
+    }
+
 }

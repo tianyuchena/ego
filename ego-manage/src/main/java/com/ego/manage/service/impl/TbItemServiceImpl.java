@@ -2,17 +2,22 @@ package com.ego.manage.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.ego.commons.pojo.EasyUIDataGrid;
+import com.ego.commons.utils.HttpClientUtil;
 import com.ego.commons.utils.IDUtils;
+import com.ego.commons.utils.JsonUtils;
 import com.ego.dubbo.service.TbItemDescDubboService;
 import com.ego.dubbo.service.TbItemDubboService;
 import com.ego.manage.service.TbItemService;
 import com.ego.pojo.TbItem;
 import com.ego.pojo.TbItemDesc;
 import com.ego.pojo.TbItemParamItem;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @Auther: cty
@@ -24,6 +29,8 @@ import java.util.Date;
 public class TbItemServiceImpl implements TbItemService {
     @Reference
     private TbItemDubboService tbItemDubboServiceImpl;
+    @Value("${search.url}")
+    private String searchUrl;
 //    @Reference
 //    private TbItemDescDubboService tbItemDescDubboServiceImpl;
 
@@ -70,9 +77,23 @@ public class TbItemServiceImpl implements TbItemService {
         paramItem.setCreated(date);
         paramItem.setUpdated(date);
 
-        int index = 0;
-        index = tbItemDubboServiceImpl.insTbItemDesc(item, itemDesc, paramItem);
-        return index;
+        int index = tbItemDubboServiceImpl.insTbItemDesc(item, itemDesc, paramItem);
+
+        final TbItem itemFinal = item;
+        final String descFinal = desc;
+
+        new Thread(){
+            public void run(){
+                Map<String, Object> map = new HashMap<>();
+                map.put("item", itemFinal);
+                map.put("desc", descFinal);
+                HttpClientUtil.doPostJson(searchUrl, JsonUtils.objectToJson(map));
+            }
+        }.start();
+
+        if(index != 0)
+            return 1;
+        return 0;
 
         // 不考虑事务管理
 /*        long id = IDUtils.genItemId();

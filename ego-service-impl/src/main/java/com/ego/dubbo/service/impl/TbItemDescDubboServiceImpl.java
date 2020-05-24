@@ -20,4 +20,9 @@ public class TbItemDescDubboServiceImpl implements TbItemDescDubboService {
     public int insTbItemDesc(TbItemDesc tbItemDesc) {
         return tbItemDescMapper.insert(tbItemDesc);
     }
+
+    @Override
+    public TbItemDesc selById(long id) {
+        return tbItemDescMapper.selectByPrimaryKey(id);
+    }
 }
