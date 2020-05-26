@@ -1,5 +1,6 @@
 package com.ego.item.service;
 
+import com.ego.commons.pojo.TbItemChild;
 import com.ego.item.pojo.PortalMenu;
 
 /**
@@ -14,4 +15,5 @@ public interface TbItemCatService {
      * @return
      */
     PortalMenu showCatMenu();
+
 }

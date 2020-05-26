@@ -1,5 +1,6 @@
 com\ego\mapper\TbOrderMapper.class
 com\ego\mapper\TbItemDescMapper.class
+com\ego\dubbo\service\impl\TbItemParamItemDubboServiceImpl.class
 com\ego\dubbo\service\impl\TbContentDubboServiceImpl.class
 com\ego\mapper\TbItemParamMapper.class
 com\ego\mapper\TbItemCatMapper.class

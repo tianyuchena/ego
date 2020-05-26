@@ -46,7 +46,7 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
     }
 
     @Override
-    public int updItemStatus(TbItem tbItem) {
+    public int updItem(TbItem tbItem) {
         return tbItemMapper.updateByPrimaryKeySelective(tbItem);
     }
 
@@ -71,7 +71,28 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
         if(index == 3)
             return 1;
         else
-            throw new Exception("商品或描述插入数据库失败，数据回滚");
+            throw new Exception("商品、描述或规格插入数据库失败，数据回滚");
+    }
+
+    @Override
+    public int updTbItemDesc(TbItem tbItem, TbItemDesc tbItemDesc, TbItemParamItem paramItem) throws Exception {
+
+        int index = 0;
+
+        try{
+            index = tbItemMapper.updateByPrimaryKeySelective(tbItem);
+            index += tbItemDescMapper.updateByPrimaryKeySelective(tbItemDesc);
+            index += tbItemParamItemMapper.updateByPrimaryKeySelective(paramItem);
+
+        }catch (Exception e){
+            System.out.println("修改商品内容、商品描述或规格参数异常");
+            e.printStackTrace();
+        }
+
+        if(index == 3)
+            return 1;
+        else
+            throw new Exception("商品、描述或规格更新到数据库失败，数据回滚");
     }
 
     @Override
@@ -79,6 +100,11 @@ public class TbItemDubboServiceImpl implements TbItemDubboService {
         TbItemExample example = new TbItemExample();
         example.createCriteria().andStatusEqualTo(status);
         return tbItemMapper.selectByExample(example);
+    }
+
+    @Override
+    public TbItem selById(long id) {
+        return tbItemMapper.selectByPrimaryKey(id);
     }
 
 }

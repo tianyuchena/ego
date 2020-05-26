@@ -23,11 +23,11 @@ public interface TbItemDubboService {
     EasyUIDataGrid show(int page, int rows);
 
     /**
-     * 根据id修改状态
+     * 根据id修改商品内容
      * @param tbItem
      * @return
      */
-    int updItemStatus(TbItem tbItem);
+    int updItem(TbItem tbItem);
 
     /**
      * 商品新增
@@ -45,9 +45,25 @@ public interface TbItemDubboService {
     int insTbItemDesc(TbItem tbItem, TbItemDesc tbItemDesc, TbItemParamItem paramItem) throws Exception;
 
     /**
+     * 修改商品、商品描述和规格参数
+     * @param tbItem
+     * @param tbItemDesc
+     * @param paramItem
+     * @return
+     */
+    int updTbItemDesc(TbItem tbItem, TbItemDesc tbItemDesc, TbItemParamItem paramItem) throws Exception;
+
+    /**
      * 根据状态查询数据
      * @param status
      * @return
      */
     List<TbItem> selByStatus(byte status);
+
+    /**
+     * 根据id查询商品
+     * @param id
+     * @return
+     */
+    TbItem selById(long id);
 }

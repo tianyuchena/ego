@@ -23,4 +23,5 @@ public interface TbItemDescDubboService {
      * @return
      */
     TbItemDesc selById(long id);
+
 }

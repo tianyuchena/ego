@@ -1,10 +1,13 @@
 package com.ego.item.service.impl;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.ego.commons.pojo.TbItemChild;
 import com.ego.dubbo.service.TbItemCatDubboService;
+import com.ego.dubbo.service.TbItemDubboService;
 import com.ego.item.pojo.PortalMenu;
 import com.ego.item.pojo.PortalMenuNode;
 import com.ego.item.service.TbItemCatService;
+import com.ego.pojo.TbItem;
 import com.ego.pojo.TbItemCat;
 import org.springframework.stereotype.Service;
 
@@ -22,6 +25,7 @@ public class TbItemCatServiceImpl implements TbItemCatService {
     @Reference
     private TbItemCatDubboService tbItemCatDubboServiceImpl;
 
+
     @Override
     public PortalMenu showCatMenu() {
         // 查询所有一级菜单
@@ -32,6 +36,7 @@ public class TbItemCatServiceImpl implements TbItemCatService {
 
         return pm;
     }
+
 
     private List<Object> selAllMenu(List<TbItemCat> list)
     {

@@ -25,14 +25,27 @@ public interface TbItemService {
      * @param status
      * @return
      */
-    int update(String ids, byte status);
+    int updItemStatus(String ids, byte status);
 
     /**
-     * 新增商品和商品描述
+     * 新增商品内容、商品描述和规格参数
      * @param tbItem
      * @param desc
+     * @param itemParams
      * @return
+     * @throws Exception
      */
     int insTbItemDesc(TbItem tbItem, String desc, String itemParams) throws Exception;
+
+    /**
+     * 修改商品内容、商品描述和规格参数
+     * @param tbItem
+     * @param desc
+     * @param itemParamId
+     * @param itemParams
+     * @return
+     * @throws Exception
+     */
+    int updItemDesc(TbItem tbItem, String desc, String itemParamId, String itemParams) throws Exception;
 
 }

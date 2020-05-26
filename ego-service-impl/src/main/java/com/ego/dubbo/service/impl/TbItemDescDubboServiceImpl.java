@@ -25,4 +25,5 @@ public class TbItemDescDubboServiceImpl implements TbItemDescDubboService {
     public TbItemDesc selById(long id) {
         return tbItemDescMapper.selectByPrimaryKey(id);
     }
+
 }

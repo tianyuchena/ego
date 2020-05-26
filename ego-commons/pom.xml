@@ -12,6 +12,12 @@
 
     <artifactId>ego-commons</artifactId>
     <dependencies>
+        <!-- pojo -->
+        <dependency>
+            <groupId>com.ego</groupId>
+            <artifactId>ego-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <!-- httpclient -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>

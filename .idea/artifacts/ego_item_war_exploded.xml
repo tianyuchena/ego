@@ -16,6 +16,9 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:4.1.6" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:0.9.5" />
+          <element id="archive" name="ego-redis-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ego-redis" />
+          </element>
           <element id="archive" name="ego-service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ego-service" />
           </element>

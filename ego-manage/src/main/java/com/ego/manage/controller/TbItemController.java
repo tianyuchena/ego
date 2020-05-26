@@ -51,7 +51,7 @@ public class TbItemController {
     @ResponseBody
     public EgoResult delete(String ids){
         EgoResult er = new EgoResult();
-        int index = tbItemServiceImpl.update(ids, (byte)3);
+        int index = tbItemServiceImpl.updItemStatus(ids, (byte)3);
         if(1 == index)
             er.setStatus(200);
         return er;
@@ -66,7 +66,7 @@ public class TbItemController {
     @ResponseBody
     public EgoResult instock(String ids){
         EgoResult er = new EgoResult();
-        int index = tbItemServiceImpl.update(ids, (byte)2);
+        int index = tbItemServiceImpl.updItemStatus(ids, (byte)2);
         if(1 == index)
             er.setStatus(200);
         return er;
@@ -81,14 +81,14 @@ public class TbItemController {
     @ResponseBody
     public EgoResult reshelf(String ids){
         EgoResult er = new EgoResult();
-        int index = tbItemServiceImpl.update(ids, (byte)1);
+        int index = tbItemServiceImpl.updItemStatus(ids, (byte)1);
         if(1 == index)
             er.setStatus(200);
         return er;
     }
 
     /**
-     * 新增商品和商品描述
+     * 新增商品内容、商品描述和规格参数
      * @param item
      * @param desc
      * @return
@@ -106,6 +106,30 @@ public class TbItemController {
                 er.setStatus(200);
         } catch (Exception e) {
 //            e.printStackTrace();
+            er.setData(e.getMessage());
+        }
+        return er;
+    }
+
+    /**
+     * 修改商品内容、商品描述和规格参数
+     * @param tbItem
+     * @param desc
+     * @param itemParamId
+     * @param itemParams
+     * @return
+     */
+    @RequestMapping("rest/item/update")
+    @ResponseBody
+    public EgoResult update(TbItem tbItem, String desc, String itemParamId, String itemParams)
+    {
+        EgoResult er = new EgoResult();
+        try {
+            int index = tbItemServiceImpl.updItemDesc(tbItem, desc, itemParamId, itemParams);
+            if(index == 1)
+                er.setStatus(200);
+        } catch (Exception e) {
+            // e.printStackTrace();
             er.setData(e.getMessage());
         }
         return er;
