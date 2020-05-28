@@ -38,6 +38,9 @@
 	<!-- 内容服务 -->
 	<dubbo:service interface="com.ego.dubbo.service.TbContentDubboService" ref="tbContentDubboServiceImpl"></dubbo:service>
 	<bean id="tbContentDubboServiceImpl" class="com.ego.dubbo.service.impl.TbContentDubboServiceImpl"></bean>
+	<!-- 用户服务 -->
+	<dubbo:service interface="com.ego.dubbo.service.TbUserDubboService" ref="tbUserDubboServiceImpl"></dubbo:service>
+	<bean id="tbUserDubboServiceImpl" class="com.ego.dubbo.service.impl.TbUserDubboServiceImpl"></bean>
 
 	<import resource="../../applicationContext.xml"/>
 </beans>

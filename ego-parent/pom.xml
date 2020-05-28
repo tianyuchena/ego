@@ -18,6 +18,7 @@
     <module>../ego-item</module>
     <module>../ego-redis</module>
     <module>../ego-search</module>
+      <module>../ego-passport</module>
   </modules>
 
   <properties>

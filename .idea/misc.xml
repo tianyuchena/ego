@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ego-item" />
     <file type="web" url="file://$PROJECT_DIR$/ego-manage" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-pas" />
+    <file type="web" url="file://$PROJECT_DIR$/ego-passport" />
     <file type="web" url="file://$PROJECT_DIR$/ego-portal" />
     <file type="web" url="file://$PROJECT_DIR$/ego-search" />
   </component>
@@ -13,7 +15,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

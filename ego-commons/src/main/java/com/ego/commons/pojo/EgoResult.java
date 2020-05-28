@@ -9,6 +9,15 @@ package com.ego.commons.pojo;
 public class EgoResult {
     private int status;
     private Object data;
+    private Object msg;
+
+    public Object getMsg() {
+        return msg;
+    }
+
+    public void setMsg(Object msg) {
+        this.msg = msg;
+    }
 
     public Object getData() {
         return data;

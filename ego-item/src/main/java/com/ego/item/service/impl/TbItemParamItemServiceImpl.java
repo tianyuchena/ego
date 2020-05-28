@@ -48,13 +48,16 @@ public class TbItemParamItemServiceImpl implements TbItemParamItemService {
         // 若redis缓存中不存在规格参数数据，则从数据库中获取数据
         List<TbItemParamItem> tbItemParamItems = tbItemParamItemDubboServiceImpl.selByItemId(itemId);
         if(paramItems!=null && paramItems.size()>0)
+        {
             paramStr = tbItemParamItems.get(0).getParamData();
 
+            // 将从数据库查询到的数据存入缓存
+            jedisDaoImpl.set(paramKey + itemId, paramStr);
 
-        // 将从数据库查询到的数据存入缓存
-        jedisDaoImpl.set(paramKey + itemId, paramStr);
+            paramItems = JsonUtils.jsonToList(paramStr, ParamItem.class);
+            return ParamItem.ParamItemToHtmlStr(paramItems);
+        }
 
-        paramItems = JsonUtils.jsonToList(paramStr, ParamItem.class);
-        return ParamItem.ParamItemToHtmlStr(paramItems);
+        return null;
     }
 }

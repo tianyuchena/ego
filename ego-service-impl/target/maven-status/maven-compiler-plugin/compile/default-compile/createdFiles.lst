@@ -16,4 +16,5 @@ com\ego\dubbo\service\impl\TbItemDubboServiceImpl.class
 com\ego\mapper\TbOrderShippingMapper.class
 com\ego\mapper\TbUserMapper.class
 com\ego\mapper\TbItemParamItemMapper.class
+com\ego\dubbo\service\impl\TbUserDubboServiceImpl.class
 com\ego\dubbo\service\impl\TbItemParamDubboServiceImpl.class
