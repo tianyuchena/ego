@@ -34,9 +34,12 @@ public class TbUserController {
      * @return
      */
     @RequestMapping("user/showLogin")
-    public String login(@RequestHeader("Referer") String url, Model model)
+    public String login(@RequestHeader("Referer") String url, String interurl, Model model)
     {
-        model.addAttribute("redirect", url);
+        if(interurl!=null && !interurl.equals(""))
+            model.addAttribute("redirect", interurl);
+        else if(!url.equals(""))
+            model.addAttribute("redirect", url);
         return "login";
     }
 

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ego-cart/ego-cart.iml" filepath="$PROJECT_DIR$/ego-cart/ego-cart.iml" />
       <module fileurl="file://$PROJECT_DIR$/ego-commons/ego-commons.iml" filepath="$PROJECT_DIR$/ego-commons/ego-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/ego-item/ego-item.iml" filepath="$PROJECT_DIR$/ego-item/ego-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/ego-manage/ego-manage.iml" filepath="$PROJECT_DIR$/ego-manage/ego-manage.iml" />
