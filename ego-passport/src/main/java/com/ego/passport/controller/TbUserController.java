@@ -151,7 +151,7 @@ public class TbUserController {
     }
 
     /**
-     * 用戶注冊
+     * 用户注冊
      * @param tbUser
      * @return
      */

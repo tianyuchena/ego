@@ -4,6 +4,7 @@ com\ego\dubbo\service\impl\TbItemParamItemDubboServiceImpl.class
 com\ego\dubbo\service\impl\TbContentDubboServiceImpl.class
 com\ego\mapper\TbItemParamMapper.class
 com\ego\mapper\TbItemCatMapper.class
+com\ego\dubbo\service\impl\TbOrderDubboServiceImpl.class
 com\ego\mapper\TbOrderItemMapper.class
 com\ego\dubbo\service\impl\TbItemDescDubboServiceImpl.class
 com\ego\dubbo\service\impl\TbContentCategoryDubboServiceImpl.class

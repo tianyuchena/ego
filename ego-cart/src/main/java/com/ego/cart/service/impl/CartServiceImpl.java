@@ -54,6 +54,7 @@ public class CartServiceImpl implements CartService {
             if(userCartListJson!=null && !userCartListJson.equals(""))  // userCartList非空
             {
                 userCartList = JsonUtils.jsonToList(userCartListJson, TbItemChild.class);
+
                 for(TbItemChild tbItemChild: userCartList)
                 {
                     log.debug("若userCartList非空且商品已经存在，商品数目增加，覆盖原缓存信息");
